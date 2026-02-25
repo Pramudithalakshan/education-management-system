@@ -5,7 +5,7 @@ import lombok.Setter;
 
 @Getter
 @Setter
-public class Grade {
+public class DepartmentDto {
     private Integer id;
     private String name;
 }

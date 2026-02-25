@@ -5,7 +5,7 @@ import lombok.Setter;
 
 @Getter
 @Setter
-public class Library {
+public class LibraryDto {
     private Integer id;
     private String title;
     private String author;

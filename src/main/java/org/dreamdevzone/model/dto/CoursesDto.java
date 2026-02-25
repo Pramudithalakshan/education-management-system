@@ -5,7 +5,7 @@ import lombok.Setter;
 
 @Getter
 @Setter
-public class Courses {
+public class CoursesDto {
     private Integer id;
     private String name;
     private String description;
