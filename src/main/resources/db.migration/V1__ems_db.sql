@@ -58,7 +58,7 @@ CREATE TABLE Teachers
 CREATE TABLE Students
 (
     StudentID   INT AUTO_INCREMENT PRIMARY KEY,
-    UserID      INT UNIQUE,
+    UserID      INT,
     FirstName   VARCHAR(50) NOT NULL,
     LastName    VARCHAR(50) NOT NULL,
     DateOfBirth DATE        NOT NULL,
