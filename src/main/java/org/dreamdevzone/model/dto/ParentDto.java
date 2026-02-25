@@ -5,7 +5,7 @@ import lombok.Setter;
 
 @Getter
 @Setter
-public class Parent {
+public class ParentDto {
     private Integer id;
     private String firstName;
     private String lastName;

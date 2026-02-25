@@ -5,9 +5,7 @@ import lombok.Setter;
 
 @Getter
 @Setter
-public class ClassRoom {
+public class GradeDto {
     private Integer id;
     private String name;
-    private Integer groupId;
-    private Integer teacherId;
 }

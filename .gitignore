@@ -39,4 +39,4 @@ build/
 .DS_Store
 
 src/main/resources/application.yml
-src/main/resources/db/migration/V1__emsdb.sql
+src/main/resources/db/migration/V1__ems_db.sql

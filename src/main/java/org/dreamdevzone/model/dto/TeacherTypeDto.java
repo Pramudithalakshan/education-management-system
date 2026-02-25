@@ -5,9 +5,7 @@ import lombok.Setter;
 
 @Getter
 @Setter
-public class ExamResults {
+public class TeacherTypeDto {
     private Integer id;
-    private Integer studentId;
-    private Integer examId;
-    private Double score;
+    private String name;
 }

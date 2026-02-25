@@ -5,7 +5,7 @@ import lombok.Setter;
 
 @Getter
 @Setter
-public class ExamType {
+public class ExamTypeDto {
     private Integer id;
     private String name;
 }

@@ -5,11 +5,12 @@ import lombok.Setter;
 
 import java.util.Date;
 
-@Setter
 @Getter
-public class CourseEnrollment {
+@Setter
+public class BorrowedBookDto {
     private Integer id;
     private Integer studentId;
-    private Integer courseId;
-    private Date date;
+    private Integer libraryId;
+    private Date borrowDate;
+    private Date returnDate;
 }
