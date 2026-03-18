@@ -59,7 +59,6 @@ public class StudentServiceImpl implements StudentService {
         }catch (ResourcesNotFoundException ex) {
             throw new ResourcesNotFoundException("Student not found");
         }
-
     }
 
     @Override
